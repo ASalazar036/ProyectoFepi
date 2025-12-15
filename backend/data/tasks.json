@@ -1,0 +1,212 @@
+[
+  {
+    "summary": "Implementar validación de usuarios (backend)",
+    "description": "Implementar la lógica de validación de datos para el registro de usuarios en el backend.",
+    "type": "Task",
+    "priority": "High",
+    "assignee": "Carlos",
+    "dueDate": "2025-12-13",
+    "id": "TASK-1765648459674-ievcimm2p",
+    "status": "In Progress"
+  },
+  {
+    "summary": "Diseñar pantallas de registro",
+    "description": "Preparar el diseño de las pantallas de registro de usuarios.",
+    "type": "Task",
+    "priority": "High",
+    "assignee": "Laura",
+    "dueDate": "2024-07-25",
+    "id": "TASK-1765648459674-z4c02is5z",
+    "status": "In Progress"
+  },
+  {
+    "summary": "Apoyar con pruebas de login",
+    "description": "Asistir en las pruebas de la funcionalidad de inicio de sesión para asegurar su correcto funcionamiento, si el tiempo lo permite.",
+    "type": "Task",
+    "priority": "Low",
+    "assignee": "Carlos",
+    "dueDate": "2025-12-13",
+    "id": "TASK-1765648459674-my2blhxx1",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Implementar backend de autenticación",
+    "description": "Desarrollar la lógica de autenticación de usuarios, incluyendo validación de credenciales y manejo de sesiones utilizando JWT para el módulo de registro.",
+    "type": "Task",
+    "priority": "High",
+    "assignee": "Carlos",
+    "dueDate": "2025-12-13",
+    "id": "TASK-1765649333802-sjl589ia7",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Diseñar pantallas de registro e inicio de sesión",
+    "description": "Crear los diseños visuales (wireframes/mockups) para las interfaces de usuario de las pantallas de registro e inicio de sesión.",
+    "type": "Task",
+    "priority": "High",
+    "assignee": "Laura",
+    "dueDate": "2025-12-13",
+    "id": "TASK-1765649333802-p7v5t6kvo",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Subir diseños a Figma",
+    "description": "Cargar los diseños finalizados de las pantallas de registro e inicio de sesión a Figma para que el equipo frontend pueda acceder a ellos.",
+    "type": "Task",
+    "priority": "High",
+    "assignee": "Laura",
+    "dueDate": "2024-05-16",
+    "id": "TASK-1765649333802-12wa30yc8",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Integrar vistas de registro/login en React",
+    "description": "Desarrollar e integrar las interfaces de usuario (vistas) de registro e inicio de sesión en el frontend usando React, basándose en los diseños de Figma.",
+    "type": "Task",
+    "priority": "High",
+    "assignee": "Miguel",
+    "dueDate": "2025-12-13",
+    "id": "TASK-1765649333802-cpq79zy1t",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Conectar formularios frontend con API de autenticación",
+    "description": "Implementar la lógica en el frontend para que los formularios de registro e inicio de sesión se comuniquen y consuman los endpoints de la API de autenticación del backend.",
+    "type": "Task",
+    "priority": "High",
+    "assignee": "Miguel",
+    "dueDate": "2025-12-13",
+    "id": "TASK-1765649333802-ldadg7lk7",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Actualizar backlog del proyecto",
+    "description": "Revisar y actualizar el backlog del proyecto, asegurándose de que todas las tareas y el progreso estén correctamente reflejados.",
+    "type": "Task",
+    "priority": "Medium",
+    "assignee": "Unassigned",
+    "dueDate": "2025-12-13",
+    "id": "TASK-1765649333802-eab2i61gc",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Dar seguimiento al progreso del módulo de registro",
+    "description": "Monitorear el avance de las tareas relacionadas con el módulo de registro y facilitar la resolución de impedimentos.",
+    "type": "Task",
+    "priority": "High",
+    "assignee": "Unassigned",
+    "dueDate": "2025-12-13",
+    "id": "TASK-1765649333802-m7ga4lpr0",
+    "status": "To Do"
+  },
+  {
+    "summary": "Preparar revisión de resultados para reunión semanal",
+    "description": "Recopilar y organizar la información sobre el progreso y los resultados del módulo de registro para la presentación en la reunión del viernes.",
+    "type": "Task",
+    "priority": "High",
+    "assignee": "Unassigned",
+    "dueDate": "2024-05-17",
+    "id": "TASK-1765649333802-skp4yt92y",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Realizar pruebas de funcionalidad del login",
+    "description": "Ejecutar pruebas exhaustivas en la funcionalidad de inicio de sesión para asegurar que opere correctamente y sin errores, si el tiempo lo permite.",
+    "type": "Task",
+    "priority": "Low",
+    "assignee": "Carlos",
+    "dueDate": "2025-12-13",
+    "id": "TASK-1765649333802-x6a8uulwc",
+    "status": "To Do"
+  },
+  {
+    "summary": "Miguel: Recoger café",
+    "description": "Miguel debe ir a recoger el café.",
+    "type": "Task",
+    "priority": "Medium",
+    "assignee": "Miguel",
+    "dueDate": "2025-12-13",
+    "id": "TASK-1765650024647-iewsulga4",
+    "status": "To Do"
+  },
+  {
+    "summary": "Desarrollar el backend",
+    "description": "Daniel debe encargarse del desarrollo y la implementación del servicio de backend.",
+    "type": "Task",
+    "priority": "High",
+    "assignee": "Daniel",
+    "dueDate": "2025-12-15",
+    "id": "TASK-1765814299951-expmel8wz",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Implement Backend for Registration Module",
+    "type": "Task",
+    "priority": "High",
+    "description": "Develop the backend for the registration module, including authentication, user validation, and JWT session management.",
+    "assignee": "Carlos",
+    "dueDate": "2025-12-15",
+    "id": "TASK-1765814338492-y9ou9do7m",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Design Registration and Login Screens",
+    "type": "Task",
+    "priority": "High",
+    "description": "Prepare the design for the registration and login screens and upload them to Figma.",
+    "assignee": "Laura",
+    "dueDate": "2023-10-25",
+    "id": "TASK-1765814338492-cgw733p91",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Implement Frontend for Registration Module",
+    "type": "Task",
+    "priority": "High",
+    "description": "Integrate the designed views in React and connect the forms with the API once designs are ready.",
+    "assignee": "Miguel",
+    "dueDate": "2025-12-15",
+    "id": "TASK-1765814338492-xvbvjy2zy",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Update Project Backlog",
+    "type": "Task",
+    "priority": "Medium",
+    "description": "Update the project backlog with current progress and new tasks.",
+    "assignee": "Unassigned",
+    "dueDate": "2025-12-15",
+    "id": "TASK-1765814338492-ys5o9ea7j",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Monitor Project Progress",
+    "type": "Task",
+    "priority": "Medium",
+    "description": "Track the progress of the registration module development.",
+    "assignee": "Unassigned",
+    "dueDate": "2025-12-15",
+    "id": "TASK-1765814338492-wbvsu760d",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Review Registration Module Results",
+    "type": "Task",
+    "priority": "High",
+    "description": "Review the completed work and results of the registration module in the Friday meeting.",
+    "assignee": "Unassigned",
+    "dueDate": "2023-10-27",
+    "id": "TASK-1765814338492-i5bf1mcs8",
+    "status": "Pending Sync"
+  },
+  {
+    "summary": "Support Login Functionality Testing",
+    "type": "Task",
+    "priority": "Low",
+    "description": "Assist with login functionality testing to ensure correct operation, if extra time is available.",
+    "assignee": "Carlos",
+    "dueDate": "2025-12-15",
+    "id": "TASK-1765814338492-w3nq9aon3",
+    "status": "Pending Sync"
+  }
+]
