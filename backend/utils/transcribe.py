@@ -3,13 +3,18 @@ import os
 import json
 from faster_whisper import WhisperModel
 
-def transcribe(file_path, model_size="tiny"):
+def transcribe(file_path, model_size="small"):
     try:
         # Run on CPU by default to avoid CUDA complexities unless requested
         # 'int8' quantization is faster on CPU
         model = WhisperModel(model_size, device="cpu", compute_type="int8")
 
-        segments, info = model.transcribe(file_path, beam_size=5)
+        segments, info = model.transcribe(
+            file_path, 
+            beam_size=5, 
+            language="es", 
+            condition_on_previous_text=False
+        )
 
         full_text = ""
         for segment in segments:

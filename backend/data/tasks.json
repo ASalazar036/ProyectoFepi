@@ -1,49 +1,30 @@
 [
   {
-    "summary": "Advance with the notifications module.",
+    "summary": "Send Alejandro for coffee",
+    "description": "",
     "type": "Task",
-    "priority": "Medium",
-    "assignee": "Team",
-    "dueDate": "End of current week",
-    "id": "TASK-1766071581653-a1nfhpbal",
-    "status": "Pending Sync"
+    "priority": "Low",
+    "assignee": "Alejandro",
+    "dueDate": "2026-01-21",
+    "id": "TASK-1767574983656-jis2vphaa",
+    "status": "To Do"
   },
   {
-    "summary": "Develop the backend for the notifications module.",
+    "summary": "Implement backend for notifications module",
     "type": "Task",
     "priority": "Medium",
     "assignee": "Jorge",
-    "dueDate": "End of current week",
-    "id": "TASK-1766071581653-14g09e7kg",
+    "dueDate": "2026-01-05",
+    "id": "TASK-1767575046640-k6qg368iy",
     "status": "Pending Sync"
   },
   {
-    "summary": "Design the screens for the notifications module.",
+    "summary": "Design screens for notifications module",
     "type": "Task",
-    "priority": "High",
+    "priority": "Medium",
     "assignee": "Paula",
-    "dueDate": "End of current week",
-    "id": "TASK-1766071581653-jivhurson",
-    "status": "Pending Sync"
-  },
-  {
-    "summary": "Implementar backend del módulo de registro del sistema",
-    "description": "Desarrollar y codificar la lógica del lado del servidor para el módulo de registro del sistema.",
-    "type": "Task",
-    "priority": "High",
-    "assignee": "Leonardo",
-    "dueDate": "Unassigned",
-    "id": "TASK-1766071607863-jymbghpz0",
-    "status": "Pending Sync"
-  },
-  {
-    "summary": "Diseñar el módulo de registro del sistema",
-    "description": "Crear el diseño (UI/UX y/o arquitectura funcional) para el módulo de registro del sistema.",
-    "type": "Task",
-    "priority": "High",
-    "assignee": "Mario",
-    "dueDate": "Unassigned",
-    "id": "TASK-1766071607863-crwyqgxs0",
+    "dueDate": "2026-01-05",
+    "id": "TASK-1767575046640-j1mnu9l5d",
     "status": "Pending Sync"
   }
 ]

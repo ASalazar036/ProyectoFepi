@@ -70,7 +70,14 @@ async function transcribeAudio(fileBuffer, mimeType) {
       // 1. Guardar buffer en archivo temporal
       const tempId = Date.now();
       const tempDir = path.join(__dirname, 'temp');
-      const tempPath = path.join(tempDir, `audio_${tempId}.webm`); // Asumimos webm del navegador
+
+      // Determinar extensión
+      let ext = 'webm';
+      if (mimeType && mimeType.includes('mp4')) ext = 'mp4';
+      if (mimeType && mimeType.includes('ogg')) ext = 'ogg';
+      if (mimeType && mimeType.includes('wav')) ext = 'wav';
+
+      const tempPath = path.join(tempDir, `audio_${tempId}.${ext}`);
 
       // Asegurar directorio temp
       if (!fs.existsSync(tempDir)) {
@@ -127,7 +134,7 @@ async function transcribeAudio(fileBuffer, mimeType) {
           data: fileBuffer.toString("base64")
         }
       },
-      { text: "Genera una transcripción literal y exacta de lo que se dice en este audio. No añadidas títulos, ni formatos, ni introducciones. Solo el texto hablado puro." }
+      { text: "Genera una transcripción literal y exacta de lo que se dice en este audio. \n\nREGLAS ESTRICTAS:\n1. NO saludes.\n2. NO digas 'Aquí está la transcripción'.\n3. NO uses introducciones como 'Sure', 'Claro'.\n4. SOLO devuelve el texto hablado." }
     ]);
     return result.response.text();
   }
