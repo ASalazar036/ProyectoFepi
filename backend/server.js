@@ -292,6 +292,26 @@ app.post('/api/sync-jira', async (req, res) => {
   }
 });
 
+// 2.1 Verificar Conexión Jira
+app.get('/api/jira-check', async (req, res) => {
+  if (!process.env.JIRA_EMAIL || !process.env.JIRA_API_TOKEN || !process.env.JIRA_DOMAIN) {
+    return res.status(500).json({ error: "Credenciales de Jira faltantes en .env" });
+  }
+
+  try {
+    const response = await axios.get(`https://${process.env.JIRA_DOMAIN}/rest/api/3/myself`, {
+      headers: {
+        'Authorization': `Basic ${Buffer.from(`${process.env.JIRA_EMAIL}:${process.env.JIRA_API_TOKEN}`).toString('base64')}`,
+        'Accept': 'application/json'
+      }
+    });
+    res.json({ success: true, user: response.data.displayName, email: response.data.emailAddress });
+  } catch (error) {
+    console.error("Jira Check Error:", error.response?.data || error.message);
+    res.status(500).json({ error: "Fallo conexión a Jira", details: error.response?.data || error.message });
+  }
+});
+
 // 3. Mentor Virtual
 app.post('/api/mentor', async (req, res) => {
   const { history, message } = req.body;

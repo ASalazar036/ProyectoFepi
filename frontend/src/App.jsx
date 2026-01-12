@@ -191,7 +191,7 @@ export default function MentorIAApp() {
 
   // Datos
   const [tasks, setTasks] = useState([]);
-  const [jiraProjectKey, setJiraProjectKey] = useState("TESIS");
+  const [jiraProjectKey, setJiraProjectKey] = useState("KAN");
 
   // Chat Mentor
   const [chatHistory, setChatHistory] = useState([]);
